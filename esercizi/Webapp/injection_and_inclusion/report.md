@@ -13,17 +13,6 @@ Per risultare corretto l'esercizio lo studente deve consegnare: la FLAG, la quer
 
 Consegnare soltanto la Flag non sara' ritenuto sufficente.
 
-### SQLi
-La challenge consiste nello sfruttare una sql injection per bypassare il login
-
-Il login si effettua attraverso una chiamata GET al indirizzo /login con parametri username e password e.g. /login?username=&password=
-
-Scopo dell'esercitazione e' loggarsi come utente admin
-
-Per risultare corretto l'esercizio lo studente deve consegnare: la FLAG, la query completa che sfrutta l'SQLi, una breve descrizione sui passaggi eseguiti, il perche' la vulnerabilita' esiste e come viene sfruttata.
-
-Consegnare soltanto la Flag non sara' ritenuto sufficente.
-
 ### LFI
 
 La challenge consiste nello sfruttare una LFI (Local File Inclusion)
