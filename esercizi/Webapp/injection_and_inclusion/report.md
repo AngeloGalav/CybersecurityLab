@@ -24,4 +24,4 @@ Quale secondo voi è il bug nel codice.
 
 2. Nella schermata di login, possiamo eseguire un semplice SQL Injection mettendo le stringhe `a'OR''='` sia nel campo User che in quello password. In questo modo, la condizione della query sarà sempre vera, e dovrebbe ritornare i dati del primo utente della lista (che in questo caso è admin). In questo modo, possiamo entrare nell'account admin e fare mille porcherie. Un modo corretto per evitare questa vulnerabilità sarebbe sanificare l'input, in modo da impedire che ci siano apici.
 
-3. 
+3. bho, non so se le vulnerabilità tutte uguali dell'es 1 contino... Le altre che ho cercato online non funzionano qui.  
