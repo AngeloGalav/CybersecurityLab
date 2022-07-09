@@ -6,7 +6,7 @@ A repo containing solutions and exercises to some CTFs for the CyberSec lab at U
 
 La repo contiene gli appunti scritti da me sul corso di Laboratorio di Sicurezza, assieme agli esercizi svolti, con il loro procedimento completo. 
 
-### Come manca?
+### Cosa manca?
 
 Alcuni esercizi che solitamente non chiede, assieme ad alcune lezioni di lab che solitamente non chiede o che ha detto che sono facoltative. 
 
