@@ -18,8 +18,6 @@ Modalità di Consegna:
 
 ## Soluzione
 
-**ATTENZIONE!!**: Ricorda che `fast.log` è il luogo dove si trovano i log più semplici e "veloci", se vogliamo avere un log espressivo, dobbiamo usare `eve.json`. 
-
 Prima di tutto, dobbiamo andare su wireshark e collegarci su netflix.com, ed inserire l'opzione `resolve names` nelle impostazioni di wireshark, in modo da catturare l'url delle CDN di netflix e ricevere gli alert quando abbiamo un video stream.
 
 A questo punto, prendiamo alcuni degli url di queste CDN, ed inseriamole in una regola in un files `seclab.rules`, sottoforma di regola di suricata. 
@@ -31,7 +29,7 @@ alert tls any any -> any any (msg:"Netflix video stream 1"; tls_sni; content:"oc
 In questo modo, ci dovrebbe avvisare ogni volta che si fa una chiamata a `oca.nflxso.net`, che il suffisso di uno degli hostname del CDN.
 
 Dunque, testiamo il tutto.
-Carichiamo il file di configurazione e il file delle regole su suricata in questo modo:
+Carichiamo il file di configurazione e il file delle regole su suricata in questo modo (_NOTA_: l'interfaccia di rete potrebbe essere diversa sul tuo pc):
 ```
 suricata -c suricata.yaml -l logs -s seclab.rules -i enp0s31f6
 ```
