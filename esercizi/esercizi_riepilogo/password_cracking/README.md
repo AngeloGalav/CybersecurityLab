@@ -12,16 +12,16 @@ Per eseguire questo esercizio, dobbiamo prima di tutto andare a creare appunto u
 Per farlo, usiamo la suite `cewl`, e andiamo ad esaminare alcuni siti collegati con il nostro corso.
 Dunque:
 ```bash
-touch wordlist.txt
-cewl [sito_prof]
-cewl [curriculum_vitae_prof]
-cewl [sito_del_corso]
-cewl [sito_ulisse]
+touch wordlist_mia.txt
+cewl [sito_prof] > wordlist_mia.txt
+cewl [curriculum_vitae_prof] >> wordlist_mia.txt 
+cewl [sito_del_corso] >> wordlist_mia.txt
+cewl [sito_ulisse] >> wordlist_mia.txt
 ```
 
 A questo punto, abbiamo creato la nostra wordlist, e la diamo in pasto a `john`.
 ```bash
-john --wordlist="wordlist.txt" accounts.txt
+john --wordlist="wordlist_mia.txt" accounts.txt
 touch password_trovate
 john --show accounts.txt > password_trovate 
 ```
