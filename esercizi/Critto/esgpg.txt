@@ -1,0 +1,1 @@
+Linux computer-di-angelo 5.15.53-1-DEBIAN #1 SMP PREEMPT Thu Jul 7 16:56:55 UTC 2022 x86_64 GNU/Linux
