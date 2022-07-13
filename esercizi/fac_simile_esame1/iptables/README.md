@@ -42,6 +42,8 @@ iptables -F
 
 ## Soluzioni
 
+Siccome li vuole in ordine di esercizio, dobbiamo inserire i pacchetti in coda, quindi usiamo (quasi) sempre il flag `-A`.
+
 ### es1
 Nel caso della nostra VM, dobbiamo contrallare quale sia l'interfaccia di loopback con `ip a`, e nel nostro caso si chiama `lo`.
 A questo punto, semplicemente sciriviamo il comando:
