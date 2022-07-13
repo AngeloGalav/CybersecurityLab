@@ -1,0 +1,41 @@
+07/13/2022-03:22:19.686379  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:52722 -> 54.170.196.176:443
+07/13/2022-03:22:21.122902  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:60056 -> 34.252.28.38:443
+07/13/2022-03:24:54.058223  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:57058 -> 34.252.28.38:443
+07/13/2022-03:25:06.155449  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:49926 -> 34.252.28.38:443
+07/13/2022-03:32:42.151097  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:33238 -> 34.252.28.38:443
+07/13/2022-03:37:06.283824  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:57132 -> 151.99.109.57:443
+07/13/2022-03:39:59.105719  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:34320 -> 151.99.109.57:443
+07/13/2022-03:39:59.144738  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:34332 -> 151.99.109.57:443
+07/13/2022-03:39:59.144711  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:34342 -> 151.99.109.57:443
+07/13/2022-03:39:59.145113  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:34346 -> 151.99.109.57:443
+07/13/2022-03:40:18.211959  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:56452 -> 151.99.109.57:443
+07/13/2022-03:40:18.212010  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:56470 -> 151.99.109.57:443
+07/13/2022-03:40:18.214371  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:56460 -> 151.99.109.57:443
+07/13/2022-03:40:24.040403  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:56502 -> 151.99.109.57:443
+07/13/2022-03:40:24.041238  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:56512 -> 151.99.109.57:443
+07/13/2022-03:40:24.047247  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:56516 -> 151.99.109.57:443
+07/13/2022-03:40:24.769930  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46754 -> 151.99.109.57:443
+07/13/2022-03:40:24.770439  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46766 -> 151.99.109.57:443
+07/13/2022-03:40:24.772785  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46762 -> 151.99.109.57:443
+07/13/2022-03:40:25.172806  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46772 -> 151.99.109.57:443
+07/13/2022-03:40:25.320730  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46790 -> 151.99.109.57:443
+07/13/2022-03:40:25.320777  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46780 -> 151.99.109.57:443
+07/13/2022-03:40:25.323027  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46796 -> 151.99.109.57:443
+07/13/2022-03:40:25.730749  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:46808 -> 151.99.109.57:443
+07/13/2022-03:40:40.849067  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:38886 -> 151.99.109.57:443
+07/13/2022-03:40:40.865739  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:38880 -> 151.99.109.57:443
+07/13/2022-03:42:04.690266  [**] [1:303000301:1] SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori... [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:35116 -> 151.99.109.57:443
+07/13/2022-03:42:23.225692  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:57694 -> 34.252.28.38:443
+07/13/2022-03:42:28.353373  [**] [1:300000301:1] SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:39802 -> 54.170.196.176:443
+07/13/2022-03:44:50.792108  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:55956 -> 151.99.109.59:443
+07/13/2022-03:44:50.792159  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:55968 -> 151.99.109.59:443
+07/13/2022-03:44:52.052876  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:55980 -> 151.99.109.59:443
+07/13/2022-03:44:52.052889  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:55988 -> 151.99.109.59:443
+07/13/2022-03:44:52.055129  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:55984 -> 151.99.109.59:443
+07/13/2022-03:44:54.036509  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:55994 -> 151.99.109.59:443
+07/13/2022-03:45:01.378019  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:45352 -> 151.99.109.59:443
+07/13/2022-03:45:01.381987  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:45370 -> 151.99.109.59:443
+07/13/2022-03:45:01.385111  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:45354 -> 151.99.109.59:443
+07/13/2022-03:45:01.385176  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:45364 -> 151.99.109.59:443
+07/13/2022-03:45:02.377356  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:45382 -> 151.99.109.59:443
+07/13/2022-03:45:02.377493  [**] [1:303082031:1] SURICATA TRAFFIC-ID: Netflix video stream 2 [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:45398 -> 151.99.109.59:443

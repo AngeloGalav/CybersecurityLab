@@ -1,0 +1,9 @@
+07/13/2022-03:05:51.745059  [**] [1:14300477:1] Ping detected [**] [Classification: (null)] [Priority: 3] {ICMP} 10.0.0.224:8 -> 216.58.209.46:0
+07/13/2022-03:05:52.746033  [**] [1:14300477:1] Ping detected [**] [Classification: (null)] [Priority: 3] {ICMP} 10.0.0.224:8 -> 216.58.209.46:0
+07/13/2022-03:05:53.746934  [**] [1:14300477:1] Ping detected [**] [Classification: (null)] [Priority: 3] {ICMP} 10.0.0.224:8 -> 216.58.209.46:0
+07/13/2022-03:05:54.748889  [**] [1:14300477:1] Ping detected [**] [Classification: (null)] [Priority: 3] {ICMP} 10.0.0.224:8 -> 216.58.209.46:0
+07/13/2022-03:06:13.362811  [**] [1:300000301:1] SURICATA TRAFFIC-ID: facebook [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:44318 -> 31.13.86.36:443
+07/13/2022-03:06:13.465280  [**] [1:300000301:1] SURICATA TRAFFIC-ID: facebook [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:39392 -> 157.240.203.35:443
+07/13/2022-03:12:20.054649  [**] [1:2814092401:0] Volex – Possible CVE-2014-6271 bash Vulnerability Requested (header) [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:58138 -> 216.58.209.46:80
+07/13/2022-03:14:36.385115  [**] [1:2814092401:0] Volex – Possible CVE-2014-6271 bash Vulnerability Requested (header) [**] [Classification: (null)] [Priority: 3] {TCP} 10.0.0.224:43840 -> 51.124.58.146:80
+

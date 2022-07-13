@@ -1,0 +1,5 @@
+alert tls any any -> any any (msg:"SURICATA TRAFFIC-ID: Netflix, bro basta guardare netflix... esci fuori"; tls_sni; content:"netflix.com"; isdataat:!1,relative; flow:to_server,established; flowbits: set,traffic/id/netflix; flowbits:set,traffic/label/social-network; sid:300000301; rev:1;)
+alert tls any any -> any any (msg:"SURICATA TRAFFIC-ID: Netflix video stream. Non sei ancora uscito fuori..."; tls_sni; content:"ipv4-c001-blq001-teleit-isp.1.oca.nflxvideo.net"; isdataat:!1,relative; flow:to_server,established; flowbits: set,traffic/id/netflix; flowbits:set,traffic/label/social-network; sid:303000301; rev:1;)
+alert tls any any -> any any (msg:"SURICATA TRAFFIC-ID: Netflix video stream 1"; tls_sni; content:"oca.nflxso.net"; isdataat:!1,relative; flow:to_server,established; flowbits: set,traffic/id/netflix; flowbits:set,traffic/label/social-network; sid:303080301; rev:1;)
+alert tls any any -> any any (msg:"SURICATA TRAFFIC-ID: Netflix video stream 2"; tls_sni; content:"oca.nflxvideo.net"; isdataat:!1,relative; flow:to_server,established; flowbits: set,traffic/id/netflix; flowbits:set,traffic/label/social-network; sid:303082031; rev:1;)
+
