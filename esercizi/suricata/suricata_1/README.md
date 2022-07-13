@@ -23,7 +23,6 @@ Prima di tutto, dobbiamo andare su wireshark e collegarci su netflix.com, ed ins
 A questo punto, prendiamo alcuni degli url di queste CDN, ed inseriamole in una regola in un files `seclab.rules`, sottoforma di regola di suricata. 
 ```
 alert tls any any -> any any (msg:"Netflix video stream 1"; tls_sni; content:"oca.nflxso.net"; isdataat:!1,relative; flow:to_server,established; flowbits: set,traffic/id/netflix; flowbits:set,traffic/label/social-network; sid:303080301; rev:1;)
-
 ```
 **RICORDA**: devi cambiare il `sid` di ogni regola in modo che non ci siano due regole con lo stesso `sid`!!
 In questo modo, ci dovrebbe avvisare ogni volta che si fa una chiamata a `oca.nflxso.net`, che il suffisso di uno degli hostname del CDN.
