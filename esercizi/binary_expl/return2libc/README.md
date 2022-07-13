@@ -33,11 +33,11 @@ La variabile SHELL sarà all'indirizzo `0xffffd531`. Tuttavia, la stringa comple
 
 A questo punto il gioco è (quasi) fatto, quindi costruiamo il nostro payload:
 ```
-$(perl -e 'print "\x90"x1504,"\x00\x00\xe1\xf7","\x50\x29\xe0\xf7","\x37\xd5\xff\xff"')
+$(perl -e 'print "\x90"x1512,"\x00\x00\xe1\xf7","\x50\x29\xe0\xf7","\x37\xd5\xff\xff"')
 ```
 
 Abbiamo finito? NO. Infatti, gdb ci darà un errore dicendo che ci sarà un bit di valore NULL (interpretato come la fine di una stringa). Infatti, una delle stringhe del nostro payload inizia con `\x00`. Dunque che possiamo fare? Semplicemente, offesettiamo l'indirizzo finché l'operazione non va.
 
 _WARNING_:Anche se ho fatto il procedimento in modo corretto, COMUNQUE tutto questo non va. Nemmeno il payload fatto dal prof va, danno tutti segmentation fault. Speriamo non metta questo esercizio...
 
-
+**DISCLAIMER**: I nostri indirizzi possono cambiare di volta in volta... Quindi non è detto che quegli indirizzi funzinino. 
