@@ -1,4 +1,4 @@
-# Notes and Excercises in CyberSec
+# Notes and Exercises in CyberSec
 
 A repo containing solutions and exercises to some CTFs for the CyberSec lab at UniBo, as well as the lessons in written format. If you don't understand italian, you can skip reading right here. 
 
