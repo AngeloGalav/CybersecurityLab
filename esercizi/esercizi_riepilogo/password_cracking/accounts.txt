@@ -1,0 +1,42 @@
+root:$6$mn3SunzWiy$QvCQ7SW1Sl/8dq888FNsTw8b2CP.B/KO9jyxN2BMSGMBOpPUiO460KdflZk5Fe5uofKNyzjB1VEA0W3zZMYJJ1:0:0:root:/root:/bin/bash
+daemon:*:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:*:2:2:bin:/bin:/usr/sbin/nologin
+sys:*:3:3:sys:/dev:/usr/sbin/nologin
+sync:*:4:65534:sync:/bin:/bin/sync
+games:*:5:60:games:/usr/games:/usr/sbin/nologin
+man:*:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:*:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:*:8:8:mail:/var/mail:/usr/sbin/nologin
+news:*:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:*:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:*:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:*:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:*:34:34:backup:/var/backups:/usr/sbin/nologin
+list:*:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:*:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:*:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:*:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:*:100:65534::/nonexistent:/usr/sbin/nologin
+systemd-timesync:*:101:102:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:*:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:*:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:*:104:110::/nonexistent:/usr/sbin/nologin
+sshd:*:105:65534::/run/sshd:/usr/sbin/nologin
+vagrant:$6$wPo6BLw15CzWFzF7$iaX8/OObVtnckGeUf6cXBKQuxZYHlAvJVZStHaio6Zh0OoYScizGlaV3mHl2s/nxezcAJahAReiY.LL1sYUtE0:1000:1000:Vagrant Default User,,,:/home/vagrant:/bin/bash
+systemd-coredump:!!:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+sec:$6$aLOD1vuc6u$dFsDOgMzPbHD2dFTwoSarAfeZ64yaH.WWiF9Ge6pqsSNUX8bS/CA4tj23yJPobFdlUg7kCTiAP3sesdQxd7cc1:1001:1001::/home/sec:/bin/bash
+usbmux:*:106:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+rtkit:*:107:113:RealtimeKit,,,:/proc:/usr/sbin/nologin
+avahi:*:108:114:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+pulse:*:109:115:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+geoclue:*:110:117::/var/lib/geoclue:/usr/sbin/nologin
+sddm:*:111:118:Simple Desktop Display Manager:/var/lib/sddm:/bin/false
+strongswan:*:112:65534::/var/lib/strongswan:/usr/sbin/nologin
+Debian-exim:!:113:119::/var/spool/exim4:/usr/sbin/nologin
+debian-tor:*:114:120::/var/lib/tor:/bin/false
+mosquitto:*:115:121::/var/lib/mosquitto:/usr/sbin/nologin
+otheruser:$6$S3KWP4YCJntN0n9N$hwnj6ueJUlAWeDLOzDEfJ6DCC7/rjOcOUGXBLVvJBlLfyS2bsI31qi8P3L8fvEjDZ74csJwTZwXSyIHuWttE41:1002:1002::/home/otheruser:/bin/sh
+ossec:*:116:122::/var/ossec:/sbin/nologin
+user_test:$6$aGC7H2bgfwc8FEIQ$P5tmS075cTJXJwGUaLAY2uajdtS3YSQ.1c2wgjDIq2zZdiDrhhJc8Q4Ih3Jtnx6DKRxIq/cwHx0tq1.MC6Ob91:1003:1003::/home/user_test:/bin/sh
+seclab:$1$seclab$PvZwVYrkF5ykEQKtOdcBK/:0:0:root:/root:/bin/bash
+eser1:$6$M3sDXi.beiRLxzDQ$gN4HowOdlWY8Pr8vPx4fRF.MHDnPwl80EMNdZe0RVvsZTn5R9JbzZqWasIxPHDo29V9FOF.ZWvzlk5mqYyLMR.:1004:1004::/home/eser1:/bin/sh
