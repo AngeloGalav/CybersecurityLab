@@ -13,3 +13,4 @@ Alcuni esercizi che solitamente non chiede, assieme ad alcune lezioni di lab che
 ### Come posso contribuire?
 
 Come sempre, puoi contattarmi direttamente oppure puoi aprire una PR. 
+Se ti piace questa repo, una star (:star:) aiuta sempre :blush:.
