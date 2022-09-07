@@ -45,11 +45,11 @@ iptables -F
 Siccome li vuole in ordine di esercizio, dobbiamo inserire i pacchetti in coda, quindi usiamo (quasi) sempre il flag `-A`.
 
 ### es1
-Nel caso della nostra VM, dobbiamo contrallare quale sia l'interfaccia di loopback con `ip a`, e nel nostro caso si chiama `lo`.
+Nel caso della nostra VM, dobbiamo controllare quale sia l'interfaccia di loopback con `ip a`, e nel nostro caso si chiama `lo`.
 A questo punto, semplicemente sciriviamo il comando:
 ```
 iptables -A INPUT -i lo -j ACCEPT
-iptables -A INPUT -o lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
 ```
 che ci accetta tutti i pacchetti in input e output.
 
